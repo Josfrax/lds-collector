@@ -2,7 +2,7 @@ from requests import get
 from bs4 import BeautifulSoup
 from lxml import etree
 
-from ToFile import JSONFile
+from utils.ToFile import JSONFile
 
 
 LETTERS: tuple = [
